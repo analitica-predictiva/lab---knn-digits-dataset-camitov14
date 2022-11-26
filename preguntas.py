@@ -61,9 +61,9 @@ def pregunta_02():
     knn.fit(X_train,y_train)
 
     # Imprima la precisión (score) del clasificador en el conjunto de datos de prueba
-    print(round(knn.score(X_train, y_train), 4))
+    print(round(knn.score(X_test, y_test), 4))
 
-
+pregunta_02()
 def pregunta_03():
     """
     Complete el código presentado a continuación.
